@@ -3,16 +3,16 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;
+  background-color: #f4f4f4;
   color: #333;
 }
 
 .container {
-  width: 80%;
+  max-width: 900px;
   margin: 20px auto;
-  background: #fff;
   padding: 20px;
-  border-radius: 5px;
+  background: #fff;
+  border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -22,8 +22,8 @@ header {
 }
 
 header h1 {
-  margin-bottom: 5px;
   font-size: 2.5em;
+  margin: 0;
 }
 
 header p {
@@ -39,11 +39,12 @@ h2 {
   color: #444;
   border-bottom: 2px solid #ddd;
   padding-bottom: 5px;
+  margin-top: 20px;
 }
 
 ul {
-  list-style: none;
-  padding: 0;
+  list-style: disc;
+  margin-left: 20px;
 }
 
 ul li {
@@ -55,4 +56,13 @@ footer {
   margin-top: 20px;
   font-size: 0.9em;
   color: #777;
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
